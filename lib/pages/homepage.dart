@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  'PixelPulse',
+                  'Lumos',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 35,
