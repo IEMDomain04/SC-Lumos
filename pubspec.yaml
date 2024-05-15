@@ -23,3 +23,8 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+
+fonts:
+    - family: LeckerliOne-Regular
+      fonts:
+        - asset: assets/Leckerli_One/LeckerliOne-Regular.ttf

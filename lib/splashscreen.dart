@@ -43,7 +43,7 @@ class _SplashScreenState extends State<SplashScreen>
           child: Lottie.asset(
             'assets/Lumos.json',
             controller: _controller,
-            fit: BoxFit.cover,
+            fit: BoxFit.fill,
             onLoaded: (composition) {
               _controller.duration =
                   composition.duration * 1.5; // Slow down the animation
