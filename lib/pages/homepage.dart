@@ -24,30 +24,45 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               // ignore: prefer_const_literals_to_create_immutables
               children: [
+                //H1; title
                 Text(
                   'Lumos',
                   style: TextStyle(
-                    fontWeight: FontWeight.bold,
                     fontFamily: 'LeckerliOne',
-                    fontSize: 100,
+                    fontSize: 150,
                     color: Colors.white,
+                    shadows: [
+                      Shadow(
+                        offset: Offset(1.0, 15.0),
+                        blurRadius: 25.0,
+                        color: Colors.white,
+                      ),
+                    ],
                   ),
                 ),
-                SizedBox(height: 30),
+
+                //H2: Title
                 Text(
                   'Amidst Darkness, Find your Light!',
                   style: TextStyle(
-                    fontFamily: 'LeckerliOne-Regular',
-                    fontSize: 80,
+                    fontFamily: 'LeckerliOne',
+                    fontSize: 50,
                     color: Colors.white,
+                    shadows: [
+                      Shadow(
+                        offset: Offset(1.0, 5.0),
+                        blurRadius: 25.0,
+                        color: Colors.white,
+                      ),
+                    ],
                   ),
                 ),
-                SizedBox(height: 10),
+                SizedBox(height: 30),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.all(10.0),
+                      padding: const EdgeInsets.all(20.0),
                       child: OutlinedButton(
                         onPressed: () {},
                         child: Text(
@@ -64,7 +79,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.all(10.0),
+                      padding: const EdgeInsets.all(20.0),
                       child: OutlinedButton(
                         onPressed: () {},
                         child: Text(

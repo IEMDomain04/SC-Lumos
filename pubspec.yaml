@@ -24,7 +24,7 @@ flutter:
   assets:
     - assets/
 
-fonts:
-    - family: LeckerliOne-Regular
+  fonts:
+    - family: LeckerliOne
       fonts:
         - asset: assets/Leckerli_One/LeckerliOne-Regular.ttf
