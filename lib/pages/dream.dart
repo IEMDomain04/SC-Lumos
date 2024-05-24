@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:lumos/pages/dream.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class DreamPage extends StatefulWidget {
+  const DreamPage({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<DreamPage> createState() => _DreamPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _DreamPageState extends State<DreamPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -63,14 +62,7 @@ class _HomePageState extends State<HomePage> {
                     Padding(
                       padding: const EdgeInsets.all(20.0),
                       child: OutlinedButton(
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const DreamPage(),
-                            ),
-                          );
-                        },
+                        onPressed: () {},
                         child: Text(
                           'I got a Dream',
                           style: TextStyle(color: Colors.white, fontSize: 20),
@@ -80,7 +72,7 @@ class _HomePageState extends State<HomePage> {
                             borderRadius: BorderRadius.circular(6),
                           ),
                           minimumSize: Size(200, 60),
-                          side: BorderSide(color: Colors.white), // White border
+                          side: BorderSide(color: Colors.green), // White border
                         ),
                       ),
                     ),
