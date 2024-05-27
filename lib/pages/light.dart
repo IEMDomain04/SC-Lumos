@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void iGotADream(BuildContext context) {
+void iSeeTheLight(BuildContext context) {
   showGeneralDialog(
     context: context,
     barrierDismissible: true,
@@ -28,13 +28,13 @@ void iGotADream(BuildContext context) {
                       padding: const EdgeInsets.only(
                           bottom: 0), // Reduce the bottom padding
                       child: Image.asset(
-                        'assets/img2.png',
+                        'assets/img1.png',
                         width: 500, // Set the width as needed
                         height: 500, // Set the height as needed
                       ),
                     ),
                     Text(
-                      '"So glad I left my tower\n Like all you lovely folks\n I got a dream!"',
+                      '"And its warm and real and bright\n and the world has somehow shifted\n All at once, everything is different\n now that I see you"',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           color: Colors.white,

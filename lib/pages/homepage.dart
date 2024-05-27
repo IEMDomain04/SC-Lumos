@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lumos/pages/dream.dart';
+import 'package:lumos/pages/light.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -64,7 +65,7 @@ class _HomePageState extends State<HomePage> {
                       padding: const EdgeInsets.all(20.0),
                       child: OutlinedButton(
                         onPressed: () {
-                          iSeeTheLight(context);
+                          iGotADream(context);
                         },
                         child: Text(
                           'I got a Dream',
@@ -82,7 +83,9 @@ class _HomePageState extends State<HomePage> {
                     Padding(
                       padding: const EdgeInsets.all(20.0),
                       child: OutlinedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          iSeeTheLight(context);
+                        },
                         child: Text(
                           'I see the Light',
                           style: TextStyle(color: Colors.white, fontSize: 20),

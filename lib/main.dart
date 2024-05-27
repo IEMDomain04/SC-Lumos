@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lumos/pages/homepage.dart';
+import 'package:lumos/splashscreen.dart';
 //import 'package:lumos/splashscreen.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: const HomePage(), // Show the splash screen first
+      home: const SplashScreen(), // Show the splash screen first
     );
   }
 }
