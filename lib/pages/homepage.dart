@@ -64,12 +64,7 @@ class _HomePageState extends State<HomePage> {
                       padding: const EdgeInsets.all(20.0),
                       child: OutlinedButton(
                         onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const DreamPage(),
-                            ),
-                          );
+                          iSeeTheLight(context);
                         },
                         child: Text(
                           'I got a Dream',
