@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:lumos/splashscreen.dart';
-//import 'package:lumos/splashscreen.dart';
 
 void main() {
   runApp(MyApp());
