@@ -33,8 +33,8 @@ class _HomePageState extends State<HomePage> {
                     color: Colors.white,
                     shadows: [
                       Shadow(
-                        offset: Offset(1.0, 15.0),
-                        blurRadius: 25.0,
+                        offset: Offset(1.0, 10.0),
+                        blurRadius: 20.0,
                         color: Colors.white,
                       ),
                     ],
