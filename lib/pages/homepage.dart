@@ -58,48 +58,52 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
                 SizedBox(height: 30),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.all(20.0),
-                      child: OutlinedButton(
-                        onPressed: () {
-                          iGotADream(context);
-                        },
-                        child: Text(
-                          'I got a Dream',
-                          style: TextStyle(color: Colors.white, fontSize: 20),
-                        ),
-                        style: OutlinedButton.styleFrom(
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(6),
+                SingleChildScrollView(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(20.0),
+                        child: OutlinedButton(
+                          onPressed: () {
+                            iGotADream(context);
+                          },
+                          child: Text(
+                            'I got a Dream',
+                            style: TextStyle(color: Colors.white, fontSize: 20),
                           ),
-                          minimumSize: Size(200, 60),
-                          side: BorderSide(color: Colors.white), // White border
+                          style: OutlinedButton.styleFrom(
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                            minimumSize: Size(200, 60),
+                            side:
+                                BorderSide(color: Colors.white), // White border
+                          ),
                         ),
                       ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(20.0),
-                      child: OutlinedButton(
-                        onPressed: () {
-                          iSeeTheLight(context);
-                        },
-                        child: Text(
-                          'I see the Light',
-                          style: TextStyle(color: Colors.white, fontSize: 20),
-                        ),
-                        style: OutlinedButton.styleFrom(
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(6),
+                      Padding(
+                        padding: const EdgeInsets.all(20.0),
+                        child: OutlinedButton(
+                          onPressed: () {
+                            iSeeTheLight(context);
+                          },
+                          child: Text(
+                            'I see the Light',
+                            style: TextStyle(color: Colors.white, fontSize: 20),
                           ),
-                          minimumSize: Size(200, 60),
-                          side: BorderSide(color: Colors.white), // White border
+                          style: OutlinedButton.styleFrom(
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                            minimumSize: Size(200, 60),
+                            side:
+                                BorderSide(color: Colors.white), // White border
+                          ),
                         ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
                 SizedBox(height: 20),
               ],
