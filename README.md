@@ -1,6 +1,8 @@
-# lumos
+# Lumos
 
-A new Flutter project.
+A Coded Functional Project of Man's UI/UX: Day #5
+
+A splashscreen website called "Lumos" with a theme from Disney Tangled.
 
 ## Getting Started
 
